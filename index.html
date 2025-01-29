@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Formulario de Contacto a Tesoros del Mundo">
+
+	<!-- title -->
+	<title>Contáctanos</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/tesoros.jpg">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+	
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="https://tesorosdelmundo.github.io/Home/">
+								<img src="assets/img/logoblanco.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li ><a href="https://tesorosdelmundo.github.io/Home/">Home</a>
+								</li>
+								<li><a href="https://tesorosdelmundo.github.io/Nosotros/">Nosotros</a>
+								</li>
+								<li><a href="#">Productos</a>
+									<ul class="sub-menu">
+										<li><a href="https://tesorosdelmundo.github.io/America/">América</a></li>
+										<li><a href="https://tesorosdelmundo.github.io/Europa/">Europa</a></li>
+										<li><a href="https://tesorosdelmundo.github.io/Asia/">Asia</a></li>
+										<li><a href="https://tesorosdelmundo.github.io/Africa/">África</a></li>
+										<li><a href="https://tesorosdelmundo.github.io/Productos/">Todos los productos</a></li>
+									</ul>
+								</li>
+								<li><a href="https://tesorosdelmundo.github.io/Noticias/">Noticias</a>
+								</li>
+								<li class="current-list-item"><a href="#">Contáctanos</a></li>
+								<li><a href="#">Tu Compra</a>
+									<ul class="sub-menu">
+										<li><a href="checkout.html">Check Out</a></li>
+										<li><a href="cart.html">Carrito</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="header-icons">
+										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search arewa -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p>¿Necesitas ayuda? Estamos disponibles 24/7 para tí.</p>
+						<h1>Contáctanos</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+	<!-- contact form -->
+	<div class="contact-from-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					<div class="form-title">
+						<h2>¿Preguntas? ¿Comentarios? ¿Dudas o Sugerencias?</h2>
+						<p style="text-align: justify;">Aprovecha este espacio para hacernos llegar tus comentarios, tu opinión es sumamente valiosa para nuestro equipo. Ayúdanos a ser cada vez mejores.</p>
+					</div>
+				 	<div id="form_status"></div>
+					<div class="contact-form">
+						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );" action="https://formsubmit.co/tesorosdelmundo04@gmail.com" method="POST">
+							<p>
+								<input type="text" placeholder="Nombre(s) y Apellidos" name="name" id="name">
+								<input type="email" placeholder="Correo Electrónico" name="email" id="email">
+							</p>
+							<p>
+								<input type="tel" placeholder="Celular (opcional)" name="phone" id="phone">
+								<input type="text" placeholder="Objeto" name="subject" id="subject">
+							</p>
+							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea></p>
+							<input type="hidden" name="token" value="FsWga4&@f6aw" />
+							<p><input type="submit" value="Enviar"></p>
+						</form>
+					</div>
+					<h2 style="padding: 20px;">¿Quieres vender tus artesanías con nosotros?</h2>
+							<p style="text-align: justify;">Con Tesoros del Mundo, puedes acceder a una plataforma donde tus artesanías pueden ser vistas por todos. Si quieres vivir la experiencia de vender tu arte al mundo y ser parte de nuestro increíble catálogo, llena el siguiente formulario:</p>
+							<p>Al enviarnos tu información, nuestro equipo revisará la información y se pondrá en contacto para continuar con el proceso. ¡No te quedes con las ganas de ser parte de los Tesoros del Mundo!</p>
+							<div class="contact-form">
+								<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );" action="https://formsubmit.co/tesorosdelmundo04@gmail.com" method="POST">
+									<p>
+										<input type="text" placeholder="Nombre(s) y Apellidos" name="name" id="name">
+										<input type="email" placeholder="Correo Electrónico" name="email" id="email">
+									</p>
+									<p>
+										<input type="tel" placeholder="Celular (obligatorio)" name="phone" id="phone">
+										<input type="text" placeholder="Dirección" name="subject" id="subject">
+									</p>
+									<p>
+										<input type="tel" placeholder="País" name="phone" id="phone">
+										<input type="text" placeholder="Objeto" name="subject" id="subject">
+									</p>
+									<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea></p>
+									<input type="hidden" name="token" value="FsWga4&@f6aw" />
+									<p><input type="submit" value="Enviar"></p>
+								</form>
+							</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="contact-form-wrap">
+						<div class="contact-form-box">
+							<h4><i class="fas fa-map"></i> Dirección de Oficinas</h4>
+							<p>Av. P.º de la Reforma 501, Cuauhtémoc, 06500 <br> Ciudad de México, CDMX. <br> México</p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="far fa-clock"></i> Atención</h4>
+							<p>Te atendemos las 24 horas, los 7 días de la semana. <br> </p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="fas fa-address-book"></i> Contacto</h4>
+							<p>Correo Electrónico: tesorosdelmundo04@gmail.com<br></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end contact form -->
+
+	<!-- find our location -->
+	<div class="find-location blue-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p> <i class="fas fa-map-marker-alt"></i> Nuestra Ubicación</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end find our location -->
+
+	<!-- google map section -->
+	<div class="embed-responsive embed-responsive-21by9">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7286185590074!2d-99.17750422611495!3d19.424128140953894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4e94a52d11%3A0x8353265438acbf3b!2sAv.%20P.%C2%BA%20de%20la%20Reforma%20501%2C%20Cuauht%C3%A9moc%2C%2006500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1737938174622!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
+	</div>
+	<!-- end google map section -->
+
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">Sobre Nosotros</h2>
+						<p style="text-align: justify;">Somos una empresa mexicana cuyo objetivo es repartir, mediante artesanías, expresiones culturales de todos los lugares del mundo.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Ubícanos</h2>
+						<ul style="text-align: justify;">
+							<li>Av. P.º de la Reforma 501, Cuauhtémoc, 06500 Ciudad de México, CDMX</li>
+							<li>tesorosdelmundo04@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Páginas</h2>
+						<ul>
+							<li><a href="https://tesorosdelmundo.github.io/Home/">Home</a></li>
+							<li><a href="https://tesorosdelmundo.github.io/Nosotros/">Nosotros</a></li>
+							<li><a href="https://tesorosdelmundo.github.io/Productos/">Productos</a></li>
+							<li><a href="https://tesorosdelmundo.github.io/Noticias/">Noticias</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Suscríbete</h2>
+						<p style="text-align: justify;">Activa tu suscripción para recibir las últimas actualizaciones y conocer nuestros próximos lanzamientos.</p>
+						<form action="https://tesorosdelmundo.github.io/Home/">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Tesoros del Mundo &copy; 2025 - <a href="#">Eduardo Chiñas, Yaritza Marín, André Mávil, Carlos Palacios</a>,  Derechos Reservados.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- form validation js -->
+	<script src="assets/js/form-validate.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
